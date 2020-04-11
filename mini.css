@@ -1,0 +1,107 @@
+.topnav{
+			background-color: #333;
+			overflow: hidden;
+		}
+
+.topnav a{
+			float: left;
+			color: #f2f2f2;
+			padding: 15px 25px;
+			text-align: right;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+.topnav a:hover{
+			background-color: #4CAF50;
+			color: black;
+		}
+
+.topnav a.active{
+			background-color: #4CAF50;
+			color: white;
+		}
+
+img.rounded-corners{
+			border-radius: 999em;
+			height: 100%;
+			width: 150%
+			margin:5;
+			background-color: #eee;
+			border:10px solid #000;
+			padding: 10px;
+}
+
+img{
+	border:1px solid black;
+	vertical-align: middle;
+	border-radius: 5px 5px 0 0;
+
+}
+
+img{
+	border-radius: 25%;
+	float: left;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	width: 20%;
+	transition: 0.5s;
+	border-radius: 15px;
+	padding: 10px;
+	float: left;
+}
+
+.card:hover{
+	align-content: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	background-color: blue;
+}
+
+.container{
+	padding: 10px;
+	display: inline;
+	vertical-align: text-top;
+}
+
+.exp2{
+	margin-left: -120px;
+	text-align:  center;
+	padding: 5px;
+	color: red;
+}
+
+.exp1{
+	margin-left: 500px;
+	text-align: left;
+	padding: 5px;
+	font-size: 15pt;
+}
+
+.exp3{
+	margin-left: 400px;
+	text-align: center;
+}
+
+table{
+	border-collapse: collapse;
+	border-color: black;
+	font-size: 14pt;
+	text-align: center;
+	margin-left: 500px;
+	padding: 3px;
+}
+
+h1{
+	color: blue;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+p{
+	font-size: 15pt;
+}
