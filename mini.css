@@ -51,6 +51,7 @@ img{
 	border-radius: 15px;
 	padding: 10px;
 	float: left;
+	background-color: red;
 }
 
 .card:hover{
