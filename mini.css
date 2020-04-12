@@ -1,15 +1,17 @@
 .topnav{
 			background-color: #333;
 			overflow: hidden;
+			margin: 0px;
 		}
 
 .topnav a{
 			float: left;
 			color: #f2f2f2;
-			padding: 15px 25px;
+			padding: 20px 30px;
 			text-align: right;
 			text-decoration: none;
 			font-size: 17px;
+			margin: 0px;
 		}
 
 .topnav a:hover{
@@ -51,13 +53,13 @@ img{
 	border-radius: 15px;
 	padding: 10px;
 	float: left;
-	background-color: red;
+	background-color: orange;
 }
 
 .card:hover{
 	align-content: center;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	background-color: blue;
+	background-color: yellow;
 }
 
 .container{
@@ -70,7 +72,7 @@ img{
 	margin-left: -120px;
 	text-align:  center;
 	padding: 5px;
-	color: red;
+	color: yellow;
 }
 
 .exp1{
@@ -78,11 +80,32 @@ img{
 	text-align: left;
 	padding: 5px;
 	font-size: 15pt;
+	color: white;
+
+}
+
+table{
+	text-align: center;
+	border-spacing: 2px;
+	border-collapse: separate;
+	border-color: white;
+}
+
+th,td{
+	padding: 4px;
+	color: white;s
 }
 
 .exp3{
 	margin-left: 400px;
 	text-align: center;
+}
+
+body{
+	background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 table{
@@ -95,14 +118,16 @@ table{
 }
 
 h1{
-	color: blue;
+	color: yellow;
 	text-align: center;
 }
 
 h3{
 	text-align: center;
+	color: white;
 }
 
 p{
 	font-size: 15pt;
+	color: white;
 }
